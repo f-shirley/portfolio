@@ -1,0 +1,451 @@
+body{
+    font-family: Cambria, Calibiri, sans-serif;
+    padding: 0;
+    margin: 0;
+    background-color: #575759;
+    overflow-x: hidden;
+}
+
+/*toggled with JS for indicating current page on nav*/
+.coloredNavSelection{
+    color: rgb(153, 37, 37);
+}
+
+/*begin footer styles*/
+footer{
+    /*clear both is set to push footer below left and right floated elements*/
+    clear: both;
+    bottom: 0;
+    background-color:  #302e2f;
+    color: white;
+    text-align: center;
+    font-size: 1em;
+    font-style: italic;
+    height: 100px;
+}
+footer div{
+    padding-top: 40px;
+}
+#emailLogoFooter{
+    color: white;
+}
+#githubLogoFooter{
+    width: 25px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+#linkedinLogoFooter{
+    width: 25px;
+}
+/*end footer styles*/
+
+/*begin Header styles*/
+#header{
+    position: fixed;
+    background-color: #302e2f;
+    color: white;
+    width: 100%;
+    top: 0;
+}
+#headerContentContainer{
+    margin-top: 35px;
+    margin-bottom: 35px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+#headerName{
+    display: inline;
+}
+#headerName h3{
+    display: inline;
+    font-size: 2em;
+    padding-right: 25px;
+}
+#headerName span{
+    font-size: 1.5em;
+}
+
+#header nav{
+    float: right;
+}
+
+#header nav ul{
+    padding-left: 0;
+}
+
+#header nav ul li{
+    display: inline;
+    list-style-type: none;
+    padding-right: 10px;
+    font-size: 1.5em;
+}
+#header nav ul li a{
+    text-decoration: none;
+}
+
+.whiteLinks{
+    color: white;
+}
+.whiteLinks:hover{
+    color: rgb(153, 37, 37);
+    cursor: pointer;
+}
+/*end Header styles*/
+
+/*begin aboutme main styles*/
+#aboutmeBackgroundContainer{
+    background-image: url("images/crispleavescodingbackgrounddarker.JPG");
+    background-size: cover;
+    background-attachment: fixed;
+    height: 1100px;
+    /*top padding is to prevent child's margin from being applied to this div*/
+    padding-top: 1px;
+}
+#aboutmeContentContainer{
+    background-color: rgba(0, 0, 0, 0.3);
+    width: 900px;
+    height: 55%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 200px;
+    padding: 50px;
+    color: white;
+    text-shadow: 5px 5px 12px black;
+}
+#aboutmeLeftContainer{
+    width: 400px;
+    text-align: center;
+    float: left;
+}
+
+#aboutmePortrait{
+    border-radius: 50%;
+    width: 400px;
+}
+#aboutmeLeftContainer h1{
+    font-size: 3em;
+    line-height: 0.7;
+}
+#aboutmeLeftContainer h1 span{
+    font-size: 0.5em;
+}
+
+#skillsList{
+    padding-bottom: 25px;
+}
+
+.emailLinkText{
+    text-decoration: none;
+}
+#emailLogo{
+    font-size: 3.5em;
+}
+#githubLogo{
+    width: 50px;
+    padding-right: 50px;
+    padding-left: 50px;
+}
+#linkedinLogo{
+    width: 50px;
+}
+
+
+#aboutmeRightContainer{
+    width: 400px;
+    float: right;
+    padding-top: 25px;
+}
+#aboutmeRightContainer h2{
+    text-align: center;
+}
+#aboutmeRightContainer p{
+    padding-top: 20px;
+    line-height: 1.5;
+}
+
+#aboutmeRightButtonsContainer{
+    text-align: center;
+    padding-top: 50px;
+}
+
+.buttons{
+    background-color: white;
+    color: #302e2f;
+    display: inline-block;
+    text-align: center;
+    border-radius: 20px;
+    text-decoration: none;
+    font-size: 1.5em;
+    font-weight: bold;
+    width: 150px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-shadow: none;
+}
+.buttons:hover{
+    cursor: pointer;
+    background-color: rgb(153, 37, 37);
+    color: white;
+}
+.longButtons{
+    width: 200px;
+}
+
+
+#contactInfo{
+    text-align: center;
+    padding-top: 50px;
+}
+
+/*end aboutme main styles*/
+
+/*begin projects styles*/
+#projects{
+    background-image: url("images/crispleavescodingbackgrounddarker.JPG");
+    background-size: cover;
+    background-attachment: fixed;
+    /*top and bottom padding is to prevent child's margin from being applied to this div*/
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+
+#projects h2{
+    margin-top: 200px;
+    text-align: center;
+    color: white;
+    font-size: 2em;
+}
+.projectContainer{
+    width: 900px;
+    height: 350px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    padding: 50px;
+    background-color: rgba(0, 0, 0, 0.3);
+    color: white;
+}
+
+.leftProjectText{
+    width: 400px;
+    float: left;
+}
+.leftProjectText h3{
+    color: rgb(153, 37, 37);
+    background-color: white;
+    width: auto;
+    display: inline-block;
+    padding: 5px;
+    font-size: 1.5em;
+}
+.projectButtonsContainer{
+    padding-top: 25px;
+    text-align: center;
+}
+.rightProjectImage{
+    width: 400px;
+    float: right;
+}
+.rightProjectImage a{
+    margin-left: 50px;
+}
+.rightProjectImage a img{
+    width: 300px;
+    height: 300px;
+}
+.rightProjectImage a img:hover{
+    cursor: pointer;
+    opacity: 0.8;
+}
+/*end projects styles*/
+
+/*begin resume styles*/
+
+#resume{
+    background-image: url("images/crispleavescodingbackgrounddarker.JPG");
+    background-size: cover;
+    background-attachment: fixed;
+    /*top and bottom padding is to prevent child's margin from being applied to this div*/
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+
+#resume h2{
+    text-align: center;
+    color: white;
+    font-size: 2em;
+}
+
+.rightProjectImage ul li{
+    padding-top: 25px;
+}
+
+.shortenProjectContainer{
+    height: 275px;
+}
+.extendLeftProjectTextWidth{
+    width: auto;
+}
+.extendProjectContainerHeight{
+    height: 400px;
+}
+.extendHeightEducationProjectContainer{
+    height: 700px;
+}
+
+/*end resume styles*/
+
+/*-----------------------------------------------------------------------------*/
+
+/*begin mobile styles*/
+
+@media only screen and (max-width: 1024px){
+
+    /*begin mobile header styles*/
+
+    #header{
+        position: static;
+        text-align: center;
+        width: auto;
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+    #headerContentContainer{
+        margin-top: 0px;
+        margin-bottom: 0px;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    #headerName{
+        display: block;
+    }
+    #headerName h3{
+        display: block;
+        margin-top: 0;
+        margin-bottom: 0;
+        padding-right: 0px;
+    }
+
+    #header nav{
+        float: none;
+    }
+    #header nav ul li{
+        padding-right: 0;
+    }
+    #header nav ul li:not(:first-child){
+        margin-left: 10px;
+    }
+    #header nav ul{
+        margin-bottom: 0;
+    }
+
+    /*end mobile header styles*/
+
+    /*begin mobile aboutme main styles*/
+
+    #aboutmeBackgroundContainer{
+        background-attachment: scroll;
+        height: auto;
+        padding-bottom: 50px;
+    }
+
+    #aboutmeContentContainer{
+        width: auto;
+        height: auto;
+        margin-top: 100px;
+        padding: 25px;
+    }
+    #aboutmeLeftContainer{
+        width: auto;
+        text-align: center;
+        float: none;
+    }
+    #aboutmeLeftContainer h1{
+        line-height: 1;
+    }
+    #aboutmePortrait{
+        border-radius: 50%;
+        width: 250px;
+    }
+
+    #aboutmeRightContainer{
+        width: auto;
+        float: none;
+    }
+    #aboutmeRightButtonsContainer a:not(:last-child){
+        margin-bottom: 20px;
+    }
+    /*end mobile aboutme main styles*/
+
+    /*begin mobile projects styles*/
+    
+    #projects{
+        background-attachment: scroll;
+        height: auto;
+    }
+    #projects h2{
+        margin-top: 50px;
+    }
+    .projectContainer{
+        width: auto;
+        height: auto;
+        margin-bottom: 50px;
+        padding: 25px;
+        text-align: center;
+    }
+    .leftProjectText{
+        display: block;
+        width: auto;
+        float: none;
+    }
+    .leftProjectText p{
+        text-align: left;
+    }
+    .rightProjectImage{
+        display: block;
+        width: auto;
+        float: none;
+        margin-top: 25px;
+    }
+    .rightProjectImage a{
+        margin-left: 0px;
+    }
+    .rightProjectImage a img{
+        width: 250px;
+        height: 250px;
+    }
+
+    /*end mobile projects styles*/
+
+    /*begin mobile resume styles*/
+
+    #resume{
+        background-attachment: scroll;
+    }
+    #downloadResumeButtonContainer{
+        margin-top: 50px;
+    }
+    .rightProjectImage ul{
+        text-align: left;
+    }
+    .extendLeftProjectTextWidth ul{
+        text-align: left;
+    }
+    /*since parent element width is auto, child elements' widths
+    get scaled accordingly, making the need to change the 'shorten'
+    and 'extend' secondary classes' width in resume page unnecessary*/
+
+    /*end mobile resume styles*/
+
+    /*begin mobile footer styles*/
+    footer{
+        height: 125px;
+    }
+
+    #copyrightNameFooter{
+        display: block;
+    }
+    /*end mobile footer styles*/
+    
+}
