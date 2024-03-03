@@ -178,7 +178,8 @@ footer div{
     text-decoration: none;
     font-size: 1.5em;
     font-weight: bold;
-    width: 150px;
+    padding-left: 15px;
+    padding-right: 15px;
     padding-top: 5px;
     padding-bottom: 5px;
     text-shadow: none;
@@ -187,9 +188,6 @@ footer div{
     cursor: pointer;
     background-color: rgb(153, 37, 37);
     color: white;
-}
-.longButtons{
-    width: 200px;
 }
 
 
