@@ -216,7 +216,8 @@ footer div{
 }
 .projectContainer{
     width: 900px;
-    height: 350px;
+    height: auto;
+    overflow: hidden;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 50px;
@@ -284,12 +285,6 @@ footer div{
 }
 .extendLeftProjectTextWidth{
     width: auto;
-}
-.extendProjectContainerHeight{
-    height: 400px;
-}
-.extendHeightEducationProjectContainer{
-    height: 700px;
 }
 
 /*end resume styles*/
